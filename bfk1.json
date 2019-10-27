@@ -238,7 +238,7 @@
   
  "kunnskap": [
         {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/familieforhold.html",
+            "id": "http://data.bufdir.no/kunnskap/familieforhold.html",
             "tittel": "Familieforhold",
             "type": "hjelpetekst",
              "kilder": [
@@ -250,7 +250,7 @@
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
         {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/nettverkogsosialintegritet.html",
+            "id": "http://data.bufdir.no/kunnskap/nettverkogsosialintegritet.html",
             "tittel": "Nettverk og sosial integritet",
             "type": "hjelpetekst",
              "kilder": [
@@ -262,7 +262,7 @@
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
          {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/boligokonomiogarbeid.html",
+            "id": "http://data.bufdir.no/kunnskap/boligokonomiogarbeid.html",
             "tittel": "Bolig, økonomi og arbeid",
             "type": "hjelpetekst",
              "kilder": [
@@ -274,14 +274,14 @@
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
 	  {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/beskyttelse.html",
+            "id": "http://data.bufdir.no/kunnskap/beskyttelse.html",
             "tittel": "Beskyttelse",
             "type": "hjelpetekst",
              "kilder": [],
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
 	  {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/folelsesmessigtilgjengelighet.html",
+            "id": "http://data.bufdir.no/folelsesmessigtilgjengelighet.html",
             "tittel": "Følelsesmessig tilgjengelighet",
             "type": "hjelpetekst",
              "kilder": [
@@ -293,7 +293,7 @@
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
 	 {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/stimuleringogveiledning.html",
+            "id": "http://data.bufdir.no/kunnskap/stimuleringogveiledning.html",
             "tittel": "Stimulering og veiledning",
             "type": "hjelpetekst",
              "kilder": [
@@ -305,7 +305,7 @@
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
 	 {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/grunnleggendeomsorg.html",
+            "id": "http://data.bufdir.no/kunnskap/grunnleggendeomsorg.html",
             "tittel": "Grunnleggende omsorg",
             "type": "hjelpetekst",
              "kilder": [
@@ -325,7 +325,7 @@
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
 	 {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/vennerogfritid.html",
+            "id": "http://data.bufdir.no/kunnskap/vennerogfritid.html",
             "tittel": "Venner og fritid",
             "type": "hjelpetekst",
              "kilder": [
@@ -337,7 +337,7 @@
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
 	  {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/helse.html",
+            "id": "http://data.bufdir.no/kunnskap/helse.html",
             "tittel": "Helse",
             "type": "hjelpetekst",
              "kilder": [
@@ -349,7 +349,7 @@
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
 	 {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/folelseroguttrykk.html",
+            "id": "http://data.bufdir.no/kunnskap/folelseroguttrykk.html",
             "tittel": "Følelser og utrykk",
             "type": "hjelpetekst",
              "kilder": [
@@ -361,7 +361,7 @@
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
 	 {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/barnehageogskole.html",
+            "id": "http://data.bufdir.no/kunnskap/barnehageogskole.html",
             "tittel": "Barnehage og skole",
             "type": "hjelpetekst",
              "kilder": [
@@ -377,13 +377,13 @@
             "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
         },
           {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/bekymringsmelding.html",
+            "id": "http://data.bufdir.no/kunnskap/bekymringsmelding.html",
             "tittel": "Bekymringsmelding",
             "type": "hjelpetekst",
             "emneord": ["http://data.bufdir.no/begrep/bekymringsmelding", "http://data.bufdir.no/begrep/prosess"]            
         },
          {
-            "id": "https://github.com/martebrekke/bfk/blob/master/kunnskap/dengodestartenpaundersokelse.html",
+            "id": "http://data.bufdir.no/kunnskap/dengodestartenpaundersokelse.html",
             "tittel": "Den gode starten på en undersøkelse",
             "type": "hjelpetekst",
             "emneord": ["http://data.bufdir.no/begrep/undersøkelse", "http://data.bufdir.no/begrep/prosess"]            
