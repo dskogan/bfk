@@ -67,7 +67,7 @@ components:
         sporsmal:
           type: array
           items:
-            $ref: "#/components/schemas/Spørsmål"
+            $ref: "#/components/schemas/Sporsmal"
         kunnskap: 
           type: array
           items: 
@@ -116,7 +116,7 @@ components:
         omrader: 
           type: array
           items: 
-            $ref: "#/components/schemas/Område"          
+            $ref: "#/components/schemas/Omrade"          
     Omrade:
       type: object
       required:
