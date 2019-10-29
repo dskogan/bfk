@@ -174,18 +174,18 @@ components:
           items: 
             type: string
             format: uri-reference   
-     Kodeliste:
-      type: object
-      properties:
-        id:
-          type: string
-          format: uri
-        navn:
-          type: string
-        kode:
-          type: string
-        verdi:
-          type: string
+      Kodeliste:
+        type: object
+        properties:
+          id:
+            type: string
+            format: uri
+          navn:
+            type: string
+          kode:
+            type: string
+          verdi:
+            type: string
     Fase:
       type: object
       required: 
