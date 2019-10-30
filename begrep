@@ -1,0 +1,733 @@
+[
+    {
+        "id": "1",
+        "identifikator": "https://data.bufdir.no/begreper/1",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": {
+            "tekst": "Et fagområde her",
+            "språkMålform": "nb"
+        },
+        "bruksområde": [
+            {
+                "tekst": "Et bruksområde",
+                "språkMålform": "nb"
+            }
+        ],
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-09-03",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": {
+            "BirthDay": null,
+            "Addresses": [
+                {
+                    "Type": 5,
+                    "PoBox": null,
+                    "ExtendedAddress": null,
+                    "Street": "Fredrik Selmers vei 3",
+                    "Locality": null,
+                    "Region": null,
+                    "PostalCode": "0663",
+                    "Country": "Norge",
+                    "Longitude": null,
+                    "Latitude": null,
+                    "Label": null,
+                    "TimeZone": null,
+                    "Preference": 0,
+                    "Extensions": null
+                },
+                {
+                    "Type": 2,
+                    "PoBox": "2233",
+                    "ExtendedAddress": null,
+                    "Street": "Postboks 2233",
+                    "Locality": null,
+                    "Region": null,
+                    "PostalCode": "3103",
+                    "Country": "Norge",
+                    "Longitude": null,
+                    "Latitude": null,
+                    "Label": null,
+                    "TimeZone": null,
+                    "Preference": 0,
+                    "Extensions": null
+                }
+            ],
+            "DeliveryAddress": null,
+            "Telephones": null,
+            "Emails": [
+                {
+                    "Type": 0,
+                    "EmailAddress": "postmottak@bufdir.no",
+                    "Preference": 0
+                }
+            ],
+            "Mailer": null,
+            "Title": null,
+            "Role": null,
+            "TimeZone": null,
+            "Logo": null,
+            "Photo": null,
+            "Note": null,
+            "LastRevision": null,
+            "Url": null,
+            "UniqueIdentifier": null,
+            "Version": 0,
+            "Organization": "Bufdir",
+            "OrganizationalUnit": null,
+            "Longitude": 0,
+            "Latitude": 0,
+            "FormattedName": null,
+            "LastName": "kontaktpunkt",
+            "FirstName": "Et",
+            "MiddleName": null,
+            "Prefix": null,
+            "Suffix": null,
+            "NickName": null,
+            "Categories": null,
+            "SortString": null,
+            "Sound": null,
+            "Key": null,
+            "Classification": 0,
+            "Source": null,
+            "Kind": 0,
+            "Anniversary": null,
+            "Gender": 4,
+            "Impps": null,
+            "Languages": null,
+            "Relations": null,
+            "CalendarUserAddresses": null,
+            "CalendarAddresses": null,
+            "CustomExtensions": null
+        },
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Et begrep fra QA",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-09-12"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "En definisjon her",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": {
+                    "kilde": {
+                        "URI": "https://www.lovdata.no",
+                        "tekst": "En beskrivelse av kilden"
+                    },
+                    "forholdTilKilde": "basert på kilde"
+                },
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-09-12"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": "anwar.aatif@bufdir.no"
+        },
+        "_rid": "Ut11AM4jO5ABAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5ABAAAAAAAAAA==/",
+        "_etag": "\"020012ac-0000-0c00-0000-5d7a3df30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1568292339
+    },
+    {
+        "id": "2",
+        "identifikator": "https://data.bufdir.no/begreper/2",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": null,
+        "bruksområde": null,
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-10-16",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": null,
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Barn",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "Person 0-18 år",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": {
+                    "kilde": {
+                        "URI": null,
+                        "tekst": "\"Vergemålsloven § 2 https://lovdata.no/dokument/NL/lov/2010-03-26-9/KAPITTEL_2#KAPITTEL_2\""
+                    },
+                    "forholdTilKilde": null
+                },
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": null
+        },
+        "_rid": "Ut11AM4jO5ACAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5ACAAAAAAAAAA==/",
+        "_etag": "\"0000a6dc-0000-0c00-0000-5da705ab0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1571227051
+    },
+    {
+        "id": "3",
+        "identifikator": "https://data.bufdir.no/begreper/3",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": null,
+        "bruksområde": null,
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-10-16",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": null,
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Bekymringsmelding",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "Muntlig eller skriftlig henvendelse til barneverntjenesten om bekymring knyttet til ett eller flere barn",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": {
+                    "kilde": {
+                        "URI": null,
+                        "tekst": "\"Bvl. § 4-2 https://lovdata.no/dokument/NL/lov/1992-07-17-100?q=lov%20om%20barneverntjenester\""
+                    },
+                    "forholdTilKilde": null
+                },
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": null
+        },
+        "_rid": "Ut11AM4jO5ADAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5ADAAAAAAAAAA==/",
+        "_etag": "\"0000a7dc-0000-0c00-0000-5da705ab0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1571227051
+    },
+    {
+        "id": "4",
+        "identifikator": "https://data.bufdir.no/begreper/4",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": null,
+        "bruksområde": null,
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-10-16",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": null,
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Forelder",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "Person som er far eller mor til ett eller flere barn.",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": {
+                    "kilde": {
+                        "URI": null,
+                        "tekst": "Lov om barn og foreldre §§ 2 og 3"
+                    },
+                    "forholdTilKilde": null
+                },
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": null
+        },
+        "_rid": "Ut11AM4jO5AEAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5AEAAAAAAAAAA==/",
+        "_etag": "\"0000a8dc-0000-0c00-0000-5da705ab0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1571227051
+    },
+    {
+        "id": "5",
+        "identifikator": "https://data.bufdir.no/begreper/5",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": null,
+        "bruksområde": null,
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-10-16",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": null,
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Foresatt",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "Person som ivaretar den daglige omsorgen for ett eller flere barn",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": null,
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": null
+        },
+        "_rid": "Ut11AM4jO5AFAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5AFAAAAAAAAAA==/",
+        "_etag": "\"0000a9dc-0000-0c00-0000-5da705ab0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1571227051
+    },
+    {
+        "id": "6",
+        "identifikator": "https://data.bufdir.no/begreper/6",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": null,
+        "bruksområde": null,
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-10-16",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": null,
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Melder",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "Person som gir opplysninger til barneverntjenesten om bekymring for et eller flere barn",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": {
+                    "kilde": {
+                        "URI": null,
+                        "tekst": "\"Bvl. § 4-2 https://lovdata.no/dokument/NL/lov/1992-07-17-100?q=lov%20om%20barneverntjenester\""
+                    },
+                    "forholdTilKilde": null
+                },
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": null
+        },
+        "_rid": "Ut11AM4jO5AGAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5AGAAAAAAAAAA==/",
+        "_etag": "\"0000aadc-0000-0c00-0000-5da705ab0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1571227051
+    },
+    {
+        "id": "7",
+        "identifikator": "https://data.bufdir.no/begreper/7",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": {
+            "tekst": "Barnevern",
+            "språkMålform": "nb"
+        },
+        "bruksområde": null,
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-10-16",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": null,
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Melding",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "Se bekymringsmelding",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": {
+                    "kilde": {
+                        "URI": null,
+                        "tekst": "Bvl. § 4-2"
+                    },
+                    "forholdTilKilde": null
+                },
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": null
+        },
+        "_rid": "Ut11AM4jO5AHAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5AHAAAAAAAAAA==/",
+        "_etag": "\"0000abdc-0000-0c00-0000-5da705ab0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1571227051
+    },
+    {
+        "id": "8",
+        "identifikator": "https://data.bufdir.no/begreper/8",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": null,
+        "bruksområde": null,
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-10-16",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": null,
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Offentlig melder",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "Person med rettslig plikt til å gi melding til barneverntjenesten dersom hen har grunn til å tro at et barn blir utsatt for vold, overgrep eller annen alvorlig omsorgssvikt",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": {
+                    "kilde": {
+                        "URI": null,
+                        "tekst": "\"Barnevernloven § 6-4 https://lovdata.no/dokument/NL/lov/1992-07-17-100?q=lov%20om%20barneverntjenester\""
+                    },
+                    "forholdTilKilde": null
+                },
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": null
+        },
+        "_rid": "Ut11AM4jO5AIAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5AIAAAAAAAAAA==/",
+        "_etag": "\"0000acdc-0000-0c00-0000-5da705ab0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1571227051
+    },
+    {
+        "id": "9",
+        "identifikator": "https://data.bufdir.no/begreper/9",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": null,
+        "bruksområde": null,
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-10-16",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": null,
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Privat melder",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "Privatperson som melder bekymring til barnevernstjenesten",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": null,
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": null
+        },
+        "_rid": "Ut11AM4jO5AJAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5AJAAAAAAAAAA==/",
+        "_etag": "\"0000addc-0000-0c00-0000-5da705ab0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1571227051
+    },
+    {
+        "id": "10",
+        "identifikator": "https://data.bufdir.no/begreper/10",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": null,
+        "bruksområde": null,
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-10-16",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": null,
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Søknad",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "Henvendelse til barnevernstjenesten fra foreldre eller andre som har omsorg for barn med ønske om tiltak eller hjelp",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": {
+                    "kilde": {
+                        "URI": null,
+                        "tekst": "Barnevernloven § 4-4"
+                    },
+                    "forholdTilKilde": null
+                },
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": null
+        },
+        "_rid": "Ut11AM4jO5AKAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5AKAAAAAAAAAA==/",
+        "_etag": "\"0000aedc-0000-0c00-0000-5da705ab0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1571227051
+    }
+]
