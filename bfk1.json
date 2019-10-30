@@ -252,7 +252,7 @@
                     "kilde": "http://data.bufdir.no/bfk/kilde/5"
                 }
             ],
-            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
         },
         {
             "id": "http://data.bufdir.no/kunnskap/nettverkogsosialintegritet.html",
@@ -276,14 +276,14 @@
                     "kilde": "http://data.bufdir.no/bfk/kilde/7"
                 }
             ],
-            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
         },
 	  {
             "id": "http://data.bufdir.no/kunnskap/beskyttelse.html",
             "tittel": "Beskyttelse",
             "type": "hjelpetekst",
              "kilder": [],
-            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
         },
 	  {
             "id": "http://data.bufdir.no/folelsesmessigtilgjengelighet.html",
@@ -295,7 +295,7 @@
                     "kilde": "http://data.bufdir.no/bfk/kilde/5"
                 }
             ],
-            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
         },
 	 {
             "id": "http://data.bufdir.no/kunnskap/stimuleringogveiledning.html",
@@ -307,7 +307,7 @@
                     "kilde": "http://data.bufdir.no/bfk/kilde/6"
                 }
             ],
-            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
         },
 	 {
             "id": "http://data.bufdir.no/kunnskap/grunnleggendeomsorg.html",
@@ -327,7 +327,7 @@
                     "kilde": "http://data.bufdir.no/bfk/kilde/9"
                 }
             ],
-            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
         },
 	 {
             "id": "http://data.bufdir.no/kunnskap/vennerogfritid.html",
@@ -339,7 +339,7 @@
                     "kilde": "http://data.bufdir.no/bfk/kilde/8"
                 }
             ],
-            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
         },
 	  {
             "id": "http://data.bufdir.no/kunnskap/helse.html",
@@ -351,7 +351,7 @@
                     "kilde": "http://data.bufdir.no/bfk/kilde/10"
                 }
             ],
-            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
         },
 	 {
             "id": "http://data.bufdir.no/kunnskap/folelseroguttrykk.html",
@@ -363,7 +363,7 @@
                     "kilde": "http://data.bufdir.no/bfk/kilde/5"
                 }
             ],
-            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
         },
 	 {
             "id": "http://data.bufdir.no/kunnskap/barnehageogskole.html",
@@ -379,19 +379,19 @@
                     "kilde": "http://data.bufdir.no/bfk/kilde/12"
                 }
             ],
-            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
         },
           {
             "id": "http://data.bufdir.no/kunnskap/bekymringsmelding.html",
             "tittel": "Bekymringsmelding",
             "type": "hjelpetekst",
-            "emneord": ["http://data.bufdir.no/begrep/bekymringsmelding", "http://data.bufdir.no/begrep/prosess"]            
+            "emneord": ["https://data.bufdir.no/begreper/3", "https://data.bufdir.no/begreper/11"]            
         },
          {
             "id": "http://data.bufdir.no/kunnskap/dengodestartenpaundersokelse.html",
             "tittel": "Den gode starten på en undersøkelse",
             "type": "hjelpetekst",
-            "emneord": ["http://data.bufdir.no/begrep/undersøkelse", "http://data.bufdir.no/begrep/prosess"]            
+            "emneord": ["https://data.bufdir.no/begreper/12", "https://data.bufdir.no/begreper/11"]            
         }
     ],
 	
