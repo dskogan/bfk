@@ -204,9 +204,7 @@ components:
           format: uri
         navn:
           type: string
-        kode:
-          type: string
-        kodelisteInnhold: 
+        innhold: 
           type: array
           items: 
             $ref: "#/components/schemas/KodelisteInnhold"
@@ -302,7 +300,7 @@ components:
         kodeliste: 
           type: array
           items: 
-            $ref: "#/components/schemas/KodelisteInnhold"
+            $ref: "#/components/schemas/Kodeliste"
         sporsmal:
           type: array
           items: 
