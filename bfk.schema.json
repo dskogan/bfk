@@ -430,7 +430,7 @@
           "sjekkliste": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/SjekklisteElement"
+              "$ref": "#/components/schemas/Sjekkliste"
             }
           },
           "kodeliste": {
