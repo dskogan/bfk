@@ -5,7 +5,7 @@
 	"kodeliste": [{
 			"id": "http://data.bufdir.no/bfk/kodeliste/1",
 			"navn": "Konklusjontype",
-			"innhold": [{
+			"kodelisteInnhold": [{
 					"kode": "1",
 					"navn": "Henlagt"
 				},
@@ -30,7 +30,7 @@
 		{
 			"id": "http://data.bufdir.no/bfk/kodeliste/2",
 			"navn": "Saksinnholdtype",
-			"innhold": [{
+			"kodelisteInnhold": [{
 					"kode": "1",
 					"navn": "Foreldres somatiske sykdom"
 				},
@@ -111,7 +111,7 @@
 		{
 			"id": "http://data.bufdir.no/bfk/kodeliste/3",
 			"navn": "Meldertype",
-			"innhold": [{
+			"kodelisteInnhold": [{
 					"kode": "1",
 					"navn": "Barnet selv"
 				},
