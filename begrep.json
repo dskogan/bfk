@@ -788,5 +788,70 @@
         "_etag": "\"0000addc-0000-0c00-0000-5da705ab0000\"",
         "_attachments": "attachments/",
         "_ts": 1571227051
+    },
+     {
+        "id": "12",
+        "identifikator": "https://data.bufdir.no/begreper/12",
+        "ansvarligVirksomhet": "986128433",
+        "fagområde": null,
+        "bruksområde": null,
+        "gyldighetsperiode": [
+            {
+                "gyldigFraOgMed": "2019-10-16",
+                "gyldigTilOgMed": null
+            }
+        ],
+        "kontaktpunkt": null,
+        "sistOppdatert": null,
+        "AnbefaltTerm": [
+            {
+                "navn": {
+                    "tekst": "Undersøkelse",
+                    "språkMålform": "nb"
+                },
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "TillattTerm": null,
+        "FrarådetTerm": null,
+        "DatastrukturTerm": null,
+        "Definisjon": [
+            {
+                "tekst": {
+                    "tekst": "Fase som starter med konklusjon om undersøkelse og vedtak om tiltak",
+                    "språkMålform": "nb"
+                },
+                "kildebeskrivelse": {
+                    "kilde": {
+                        "URI": null,
+                        "tekst": "Barnevernloven § 4-4"
+                    },
+                    "forholdTilKilde": null
+                },
+                "merknad": null,
+                "eksempel": null,
+                "målgruppe": null,
+                "omfang": null,
+                "sistOppdatert": "2019-10-16"
+            }
+        ],
+        "AlternativFormulering": [
+            null
+        ],
+        "AssosiativRelasjon": null,
+        "GeneriskRelasjon": null,
+        "ParitivRelasjon": null,
+        "seOgså": null,
+        "erstatter": null,
+        "erstattesAv": null,
+        "BufdirExtension": {
+            "Status": "godkjent",
+            "Ansvarlig": null
+        },
+        "_rid": "Ut11AM4jO5AKAAAAAAAAAA==",
+        "_self": "dbs/Ut11AA==/colls/Ut11AM4jO5A=/docs/Ut11AM4jO5AKAAAAAAAAAA==/",
+        "_etag": "\"0000aedc-0000-0c00-0000-5da705ab0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1571227051
     }
 ]
