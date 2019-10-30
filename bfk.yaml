@@ -68,6 +68,14 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Sporsmal"
+        sjekkliste:
+          type: array
+          items:
+            $ref: "#/components/schemas/Sjekkliste"
+        kodeliste:
+          type: array
+          items:
+            $ref: "#/components/schemas/Kodeliste"
         kunnskap: 
           type: array
           items: 
@@ -174,18 +182,34 @@ components:
           items: 
             type: string
             format: uri-reference   
-      Kodeliste:
-        type: object
-        properties:
-          id:
-            type: string
-            format: uri
-          navn:
-            type: string
-          kode:
-            type: string
-          verdi:
-            type: string
+    Sjekkliste:
+      type: object
+      properties:
+        id:
+        type: string
+        format: uri
+      tittel:
+        type: string
+      beskrivelse:
+        type: string
+      sjekklisteElement: 
+          type: array
+          items: 
+            $ref: "#/components/schemas/SjekklisteElement"
+    Kodeliste:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uri
+        navn:
+          type: string
+        kode:
+          type: string
+        kodelisteInnhold: 
+          type: array
+          items: 
+            $ref: "#/components/schemas/KodelisteInnhold"
     Fase:
       type: object
       required: 
@@ -275,6 +299,10 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/SjekklisteElement"
+        kodeliste: 
+          type: array
+          items: 
+            $ref: "#/components/schemas/KodelisteInnhold"
         sporsmal:
           type: array
           items: 
@@ -335,6 +363,14 @@ components:
         tittel:
           type: string
         beskrivelse: 
+          type: string
+          contentMediaType: "text/html"
+    KodelisteInnhold:
+      type: object
+      properties:
+        kode:
+          type: string
+        navn: 
           type: string
           contentMediaType: "text/html"
     Kildeforhold:
