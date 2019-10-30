@@ -104,6 +104,18 @@
               "$ref": "#/components/schemas/Sporsmal"
             }
           },
+          "sjekkliste": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Sjekkliste"
+            }
+          },
+          "kodeliste": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kodeliste"
+            }
+          },
           "kunnskap": {
             "type": "array",
             "items": {
@@ -400,6 +412,12 @@
               "$ref": "#/components/schemas/SjekklisteElement"
             }
           },
+          "kodeliste": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kodeliste"
+            }
+          },
           "sporsmal": {
             "type": "array",
             "items": {
@@ -489,6 +507,18 @@
             "type": "string"
           },
           "beskrivelse": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          }
+        }
+      },
+       "KodelisteInnhold": {
+        "type": "object",
+        "properties": {
+          "kode": {
+            "type": "string"
+          },
+          "navn": {
             "type": "string",
             "contentMediaType": "text/html"
           }
