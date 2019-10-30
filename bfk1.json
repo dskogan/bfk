@@ -159,23 +159,7 @@
 					"navn": "Motta bekymringsmelding",
 					"definisjon": "",
 					"sporsmal": "http://data.bufdir.no/bfk/spørsmål/1",
-					"sjekkliste": [{
-							"navn": "Tidligere meldinger",
-							"beskrivelse": "ingen, eller et tall"
-						},
-						{
-							"navn": "Tidligere tiltak",
-							"beskrivelse": "ingen, eller et tall"
-						},
-						{
-							"navn": "Tidligere vedtak",
-							"beskrivelse": "ingen, eller et tall"
-						},
-						{
-							"navn": "Registrert sak på søsken",
-							"beskrivelse": "ingen, eller et tall"
-						}
-					],
+					"sjekkliste": "http://data.bufdir.no/bfk/sjekkliste/1",
 					"kilder": [],
 					"aktiviteter": []
 				},
@@ -235,7 +219,28 @@
             "omrader": ["http://data.bufdir.no/bfk/omrode/1", "http://data.bufdir.no/bfk/omrode/2", "http://data.bufdir.no/bfk/omrode/3", "http://data.bufdir.no/bfk/omrode/4", "http://data.bufdir.no/bfk/omrode/5", "http://data.bufdir.no/bfk/omrode/6", "http://data.bufdir.no/bfk/omrode/7", "http://data.bufdir.no/bfk/omrode/8", "http://data.bufdir.no/bfk/omrode/9", "http://data.bufdir.no/bfk/omrode/10", "http://data.bufdir.no/bfk/omrode/11"]
         }
     ],
-  
+"sjekkliste": 
+	{
+	"id": "http://data.bufdir.no/bfk/sjekkliste/1",
+	"navn": "sjekk historikk på barnet",
+	"sjekklisteElement":
+		[{
+		"navn": "Tidligere meldinger",
+		"beskrivelse": "ingen, eller et tall"
+		},
+		{
+		"navn": "Tidligere tiltak",
+		"beskrivelse": "ingen, eller et tall"
+		},
+		{
+		"navn": "Tidligere vedtak",
+		"beskrivelse": "ingen, eller et tall"
+		},
+		{
+		"navn": "Registrert sak på søsken",
+		"beskrivelse": "ingen, eller et tall"
+		}
+		],
  "kunnskap": [
         {
             "id": "http://data.bufdir.no/kunnskap/familieforhold.html",
