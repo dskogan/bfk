@@ -280,10 +280,31 @@
             "navn": {
               "type": "string"
             },
+            "kodelisteInnhold": {
             "kode": {
               "type": "string"
             },
-            "verdi": {
+            "navn": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Sjekkliste": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "format": "uri"
+            },
+            "navn": {
+              "type": "string"
+            },
+            "sjekklisteElement": {
+            "tittel": {
+              "type": "string"
+            },
+            "beskrivelse": {
               "type": "string"
             }
           }
