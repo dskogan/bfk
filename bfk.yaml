@@ -64,10 +64,18 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Prosess"
-        spørsmål:
+        sporsmal:
           type: array
           items:
-            $ref: "#/components/schemas/Spørsmål"
+            $ref: "#/components/schemas/Sporsmal"
+        sjekkliste:
+          type: array
+          items:
+            $ref: "#/components/schemas/Sjekkliste"
+        kodeliste:
+          type: array
+          items:
+            $ref: "#/components/schemas/Kodeliste"
         kunnskap: 
           type: array
           items: 
@@ -113,11 +121,11 @@ components:
         beskrivelse:
           type: string
           contentMediaType: text/html
-        områder: 
+        omrader: 
           type: array
           items: 
-            $ref: "#/components/schemas/Område"          
-    Område:
+            $ref: "#/components/schemas/Omrade"          
+    Omrade:
       type: object
       required:
         - id
@@ -142,12 +150,12 @@ components:
           items: 
             type: string
             format: uri-reference
-        spørsmål: 
+        sporsmal: 
           type: array
           items: 
             type: string
             format: uri-reference       
-    Spørsmål:
+    Sporsmal:
       type: object
       properties:
         id:
@@ -156,7 +164,7 @@ components:
         type:
           type: string
           enum: ["reflekterende", "generelt"]
-        spørsmålstekst:
+        sporsmalstekst:
           type: string
           contentMediaType: text/html
         dimensjoner:
@@ -164,7 +172,7 @@ components:
           items: 
             type: string
             format: uri-reference 
-        områder:
+        omrader:
           type: array
           items: 
             type: string
@@ -173,7 +181,33 @@ components:
           type: array
           items: 
             type: string
-            format: uri-reference                 
+            format: uri-reference   
+    Sjekkliste:
+      type: object
+      properties:
+        id:
+        type: string
+        format: uri
+      tittel:
+        type: string
+      beskrivelse:
+        type: string
+      sjekklisteElement: 
+          type: array
+          items: 
+            $ref: "#/components/schemas/SjekklisteElement"
+    Kodeliste:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uri
+        navn:
+          type: string
+        innhold: 
+          type: array
+          items: 
+            $ref: "#/components/schemas/KodelisteInnhold"
     Fase:
       type: object
       required: 
@@ -256,10 +290,22 @@ components:
           items: 
             type: string
             format: uri-reference
+        kunnskapsmodell:
+          type: string
+          format: uri-reference
         sjekkliste:
           type: array
           items:
             $ref: "#/components/schemas/SjekklisteElement"
+        kodeliste: 
+          type: array
+          items: 
+            $ref: "#/components/schemas/Kodeliste"
+        sporsmal:
+          type: array
+          items: 
+            type: string
+            format: uri-reference
         kilder: 
           type: array
           items:
@@ -317,6 +363,14 @@ components:
         beskrivelse: 
           type: string
           contentMediaType: "text/html"
+    KodelisteInnhold:
+      type: object
+      properties:
+        kode:
+          type: string
+        navn: 
+          type: string
+          contentMediaType: "text/html"
     Kildeforhold:
       type: object
       properties:
@@ -337,6 +391,8 @@ components:
           format: uri
         tittel: 
           type: string
+        kapittel:
+          type: string
         forfatter:
           type: string
         utgiver: 
@@ -344,7 +400,7 @@ components:
         url:
           type: string
           format: uri-reference
-        år:
+        ar:
           type: integer      
           description: Utgivelsesår
         type:

@@ -1,0 +1,637 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "v1",
+    "title": "BFK",
+    "license": {
+      "name": "MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://data.bufdir.no/v1/bfk"
+    }
+  ],
+  "paths": {
+    "": {
+      "get": {
+        "summary": "Returnerer en liste over bfk modellene som er tilgjengelige. Kun de viktigste egenskapene til bfk-modellene blir returnert.",
+        "tags": [
+          "bfk"
+        ],
+        "responses": {
+          "200": {
+            "description": "Expected response to a valid request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BarnevernfagligKvalitetsystem"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/{versjon}": {
+      "get": {
+        "summary": "Returnerer en komplett bfk-modell",
+        "tags": [
+          "bfk"
+        ],
+        "responses": {
+          "200": {
+            "description": "Forventet response på en gyldig rekvest",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BarnevernfagligKvalitetssystem"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BarnevernfagligKvalitetsystem": {
+        "type": "object",
+        "description": "Kvalitetssystemet",
+        "required": [
+          "versjon",
+          "versjonsInformasjon"
+        ],
+        "properties": {
+          "versjon": {
+            "type": "string",
+            "description": "Versjonsnummeret til denne bfk-modellen"
+          },
+          "versjonsInformasjon": {
+            "type": "string",
+            "description": "Beskrivelse av endringene i denne versjonen sett i forhold til forrige versjon"
+          },
+          "gjelderFra": {
+            "type": "string",
+            "format": "date"
+          },
+          "gjelderTil": {
+            "type": "string",
+            "format": "date"
+          },
+          "kunnskapsmodell": {
+            "$ref": "#/components/schemas/Kunnskapsmodell"
+          },
+          "faser": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Fase"
+            }
+          },
+          "prosesser": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Prosess"
+            }
+          },
+          "sporsmal": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Sporsmal"
+            }
+          },
+          "sjekkliste": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Sjekkliste"
+            }
+          },
+          "kodeliste": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kodeliste"
+            }
+          },
+          "kunnskap": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kunnskap"
+            }
+          },
+          "kilder": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kilde"
+            }
+          }
+        }
+      },
+      "Kunnskapsmodell": {
+        "type": "object",
+        "required": [
+          "id"
+        ],
+        "description": "Beskrivelse av kunnskapsmodell",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "beskrivelse": {
+            "type": "string"
+          },
+          "dimensjoner": {
+            "description": null,
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dimensjon"
+            },
+            "minItems": 3
+          }
+        }
+      },
+      "Dimensjon": {
+        "type": "object",
+        "required": [
+          "id",
+          "navn",
+          "definisjon"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "kode": {
+            "type": "string"
+          },
+          "navn": {
+            "type": "string"
+          },
+          "definisjon": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          },
+          "beskrivelse": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          },
+          "omrader": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Omrade"
+            }
+          }
+        }
+      },
+      "Omrade": {
+        "type": "object",
+        "required": [
+          "id",
+          "navn",
+          "definisjon"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "kode": {
+            "type": "string"
+          },
+          "navn": {
+            "type": "string"
+          },
+          "definisjon": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          },
+          "beskrivelse": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          },
+          "kunnskap": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          },
+          "sporsmal": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          }
+        }
+      },
+      "Sporsmal": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "reflekterende",
+              "generelt"
+            ]
+          },
+          "sporsmalstekst": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          },
+          "dimensjoner": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          },
+          "omrader": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          },
+          "oppgaver": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          }
+        },
+        "Kodeliste": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "format": "uri"
+            },
+            "navn": {
+              "type": "string"
+            },
+            "kodelisteInnhold": {
+            "kode": {
+              "type": "string"
+            },
+            "navn": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Sjekkliste": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "format": "uri"
+            },
+            "navn": {
+              "type": "string"
+            },
+            "sjekklisteElement": {
+            "tittel": {
+              "type": "string"
+            },
+            "beskrivelse": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Fase": {
+        "type": "object",
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "navn": {
+            "type": "string"
+          },
+          "definisjon": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          },
+          "regler": {
+            "type": "string",
+            "description": "Oppsummering av reglene som gjelder for denne fasen"
+          },
+          "frist": {
+            "type": "integer",
+            "description": "Maksimumskrav til antall kalenderdager fasen kan vare"
+          },
+          "kunnskap": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          },
+          "kilder": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kildeforhold"
+            },
+            "description": "Liste av kildehenvisninger"
+          }
+        }
+      },
+      "Prosess": {
+        "type": "object",
+        "required": [
+          "id",
+          "navn",
+          "definisjon"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "navn": {
+            "type": "string"
+          },
+          "definisjon": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          },
+          "fase": {
+            "type": "string",
+            "format": "uri-reference",
+            "description": "Prosessens tilhørerende fase"
+          },
+          "kunnskap": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          },
+          "kilder": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kildeforhold"
+            },
+            "description": "Liste av kildehenvisninger"
+          },
+          "oppgaver": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Oppgave"
+            }
+          }
+        }
+      },
+      "Oppgave": {
+        "type": "object",
+        "required": [
+          "id",
+          "navn",
+          "definisjon"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "navn": {
+            "type": "string"
+          },
+          "definisjon": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          },
+          "kunnskap": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          },
+          "kunnskapsmodell": {
+            "type": "string",
+            "format": "uri-reference"
+          },
+          "sjekkliste": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Sjekkliste"
+            }
+          },
+          "kodeliste": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kodeliste"
+            }
+          },
+          "sporsmal": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          },
+          "kilder": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kildeforhold"
+            },
+            "description": "Liste av kildehenvisninger"
+          },
+          "aktiviteter": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Aktivitet"
+            }
+          }
+        }
+      },
+      "Aktivitet": {
+        "type": "object",
+        "required": [
+          "navn"
+        ],
+        "properties": {
+          "navn": {
+            "type": "string"
+          },
+          "definisjon": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          }
+        }
+      },
+      "Kunnskap": {
+        "type": "object",
+        "required": [
+          "tittel",
+          "tekstType",
+          "tekst"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "tittel": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "introtekst",
+              "hjelpetekst",
+              "fordypningstekst"
+            ]
+          },
+          "artikkel": {
+            "type": "string",
+            "description": "Sammenfatning av kunnskapen",
+            "contentMediaType": "text/html"
+          },
+          "emneord": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri-reference"
+            },
+            "description": "Referanse til begrepskatalogen"
+          },
+          "kilder": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kildeforhold"
+            },
+            "description": "Liste av kildehenvisninger"
+          }
+        }
+      },
+      "SjekklisteElement": {
+        "type": "object",
+        "properties": {
+          "tittel": {
+            "type": "string"
+          },
+          "beskrivelse": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          }
+        }
+      },
+       "KodelisteInnhold": {
+        "type": "object",
+        "properties": {
+          "kode": {
+            "type": "string"
+          },
+          "navn": {
+            "type": "string",
+            "contentMediaType": "text/html"
+          }
+        }
+      },
+      "Kildeforhold": {
+        "type": "object",
+        "properties": {
+          "forhold": {
+            "type": "string",
+            "enum": [
+              "gjengitt",
+              "referert til",
+              "lenket til",
+              "sitert fra",
+              "bygget på",
+              "konkludert ut fra",
+              "anbefalt av",
+              "teori brukt",
+              "perspektivet til"
+            ]
+          },
+          "kilde": {
+            "type": "string",
+            "format": "uri-reference"
+          }
+        }
+      },
+      "Kilde": {
+        "type": "object",
+        "description": "En kildehenvisning",
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "tittel": {
+            "type": "string"
+          },
+          "kapittel": {
+            "type": "string"
+          },
+          "forfatter": {
+            "type": "string"
+          },
+          "utgiver": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri-reference"
+          },
+          "ar": {
+            "type": "integer",
+            "description": "Utgivelsesår"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "lovverk",
+              "forskrift",
+              "forskning",
+              "veileder",
+              "metode"
+            ]
+          },
+          "opprettet": {
+            "type": "string",
+            "format": "date",
+            "description": "Dato for når kilden ble opprettet"
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "required": [
+          "kode",
+          "meldig"
+        ],
+        "properties": {
+          "kode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "melding": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

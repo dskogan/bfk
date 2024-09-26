@@ -1,83 +1,94 @@
 {
     "versjon": "0.1.0",
     "versjonsInformasjon": "Første utgave",
-    "gjelderFra": "2017-11-01",
+    "gjelderFra": "2019-11-01",
     "kunnskapsmodell": {
-        "id": "bfk:10",
+        "id": "http://data.bufdir.no/bfk/kunnskapsmodell",
         "dimensjoner": [
             {
-                "id": "bfk:11",
+                "id": "http://data.bufdir.no/bfk/dimensjon/1",
                 "navn": "Barnets utvikling",
                 "definisjon": "Deltakelse, trivsel og læring på arenaer som barnehage og skole. Herunder læringsevner/vansker, læringsmiljø, støtte, forventninger, motivasjon og skolevegring",
-                "områder": [
+                "omrader": [
                     {
-                        "id": "bfk:111",
+                        "id": "http://data.bufdir.no/bfk/omrode/1",
                         "navn": "Helse",
-                        "definisjon": "Fysisk og psykisk helse."
+                        "definisjon": "Fysisk og psykisk helse",
+                        "kunnskap": ["http://data.bufdir.no/kunnskap/helse.html"]
                     },
                     {
-                        "id": "bfk:112",
+                        "id": "http://data.bufdir.no/bfk/omrode/2",
                         "navn": "Barnehage og skole",
-                        "definisjon": "Deltakelse, trivsel og læring på arenaer som barnehage og skole. Herunder læringsevner/vansker, læringsmiljø, støtte, forventninger, motivasjon og skolevegring."
+                        "definisjon": "Deltakelse, trivsel og læring på arenaer som barnehage og skole. Herunder læringsevner/vansker, læringsmiljø, støtte, forventninger, motivasjon og skolevegring",
+                        "kunnskap": ["https://github.com/martebrekke/bfk/blob/master/kunnskap/barnehageogskole.html"]
                     },
                     {
-                        "id": "bfk:113",
+                        "id": "http://data.bufdir.no/bfk/omrode/3",
                         "navn": "Følelser og uttrykk",
-                        "definisjon": "Følelser og uttrykk handler om barnets følelser og hvordan barnet agerer på disse. I denne sammenheng forstås \"uttrykk\" i bred forstand; fra kroppsspråk og mimikk til handlinger. Temperament, atferd, holdninger, verdier, empati, identitet og selvstendighet er også viktig."
+                        "definisjon": "Barnets følelser og hvordan barnet agerer på disse. I denne sammenheng forstås \"uttrykk\" i bred forstand; fra kroppsspråk og mimikk til handlinger. Temperament, atferd, holdninger, verdier, empati, identitet og selvstendighet er også viktig",
+                        "kunnskap": ["http://data.bufdir.no/kunnskap/folelseroguttrykk.html"]
                     },
                     {
-                        "id": "bfk:114",
+                        "id": "http://data.bufdir.no/bfk/omrode/4",
                         "navn": "Venner og fritid",
-                        "definisjon": "Barnets relasjoner til andre jevnaldrende og fritidsaktiviteter og -interesser."
+                        "definisjon": "Barnets relasjoner til andre jevnaldrende og fritidsaktiviteter og -interesser",
+                        "kunnskap": ["http://data.bufdir.no/kunnskap/vennerogfritid.html"]
                     }                    
                 ]
             },
             {
-                "id": "bfk:12",
+                "id": "http://data.bufdir.no/bfk/dimensjon/2",
                 "navn": "Foreldrenes omsorg",
                 "definisjon": "Sentrale roller eller oppgaver foreldre har i kraft av å ha omsorgsansvaret for barn. Når oppgavene eller rollene er oppfylt eller tilfredsstillende ivaretatt, representerer de viktige beskyttende faktorer for et barn.",
-                "områder": [
+                "omrader": [
                     {
-                        "id": "bfk:121",
+                        "id": "http://data.bufdir.no/bfk/omrode/5",
                         "navn": "Grunnleggende omsorg",
-                        "definisjon": "Basale behov som mat, søvn, fysisk aktivitet, hygiene, helsebehov og hverdagsrutiner."
+                        "definisjon": "Basale behov som mat, søvn, fysisk aktivitet, hygiene, helsebehov og hverdagsrutiner",
+                        "kunnskap": ["http://data.bufdir.no/kunnskap/grunnleggendeomsorg.html"]
                     },
                     {
-                        "id": "bfk:122",
+                        "id": "http://data.bufdir.no/bfk/omrode/6",
                         "navn": "Følelsmessig tilgjengelighet",
-                        "definisjon": "Stabilitet i relasjonen mellom barnet og foreldre, og foreldres evne/kapasitet til å være følelsesmessig tilgjengelige for barnet når et behov oppstår."
+                        "definisjon": "Stabilitet i relasjonen mellom barnet og foreldre, og foreldres evne/kapasitet til å være følelsesmessig tilgjengelige for barnet når et behov oppstår",
+                        "kunnskap": ["http://data.bufdir.no/kunnskap/folelsesmessigtilgjengelighet.html"]
                     },
                     {
-                        "id": "bfk:123",
+                        "id": "http://data.bufdir.no/bfk/omrode/7",
                         "navn": "Stimulering og veiledning",
-                        "definisjon": "Barnets behov for stimulering og veiledning fra foreldre vil ta ulik form jo eldre barnet blir. Samspill mellom foreldre og et barn, stimulering av lek og sosialt samvær med andre barn, grensesetting og respekt for barnets integritet."                        
+                        "definisjon": "Barnets behov for stimulering og veiledning fra foreldre vil ta ulik form jo eldre barnet blir. Samspill mellom foreldre og et barn, stimulering av lek og sosialt samvær med andre barn, grensesetting og respekt for barnets integritet",
+                        "kunnskap": ["http://data.bufdir.no/kunnskap/stimuleringogveiledning.html"]
                     },
                     {
-                        "id": "bfk:124",
+                        "id": "http://data.bufdir.no/bfk/omrode/8",
                         "navn": "Beskyttelse",
-                        "definisjon": "Foreldrenes kapasitet til å beskytte barnet mot fysisk og psykisk vold, seksuelle overgrep, å være vitne til vold og ulike former for utnyttelse."
+                        "definisjon": "Foreldrenes kapasitet til å beskytte barnet mot fysisk og psykisk vold, seksuelle overgrep, å være vitne til vold og ulike former for utnyttelse",
+                        "kunnskap": ["http://data.bufdir.no/kunnskap/beskyttelse.html"]
                     }                    
                 ]
             },
             {
-                "id": "bfk:13",
+                "id": "http://data.bufdir.no/bfk/dimensjon/1",
                 "navn": "Familie og miljø",
-                "definisjon": "Dimensjon «familie og miljø» beskriver sosioøkonomiske faktorer av betydning for barnets og familiens levekår.",
-                "områder": [
+                "definisjon": "Sosioøkonomiske faktorer av betydning for barnets og familiens levekår.",
+                "omrader": [
                     {
-                        "id": "bfk:131",
+                        "id": "http://data.bufdir.no/bfk/omrode/9",
                         "navn": "Familieforhold",
-                        "definisjon": "Sentrale faktorer er familiens sammensetning, slekt og sosiale nettverk, hvem som har den daglige omsorgen for barnet, foreldrenes helse og livsførsel, familieklima, søskens helse og utvikling, relasjon til søsken, familiebakgrunn, tidligere hendelser i familielivet, religion, språk og etnisk bakgrunn, samt særlige kulturelle og holdninger."
+                        "definisjon": "Sentrale faktorer er familiens sammensetning, slekt og sosiale nettverk, hvem som har den daglige omsorgen for barnet, foreldrenes helse og livsførsel, familieklima, søskens helse og utvikling, relasjon til søsken, familiebakgrunn, tidligere hendelser i familielivet, religion, språk og etnisk bakgrunn, samt særlige kulturelle og holdninger",
+                        "kunnskap": ["http://data.bufdir.no/kunnskap/familieforhold.html"]
                     },
                     {
-                        "id": "bfk:132",
+                        "id": "http://data.bufdir.no/bfk/omrode/10",
                         "navn": "Bolig, økonomi og arbeid",
-                        "definisjon": "Familiens sosioøkonomiske forhold, foreldrenes tilknytning til arbeidsliv, utdanning og fattigdom."
+                        "definisjon": "Familiens sosioøkonomiske forhold, foreldrenes tilknytning til arbeidsliv, utdanning og fattigdom",
+                        "kunnskap": ["http://data.bufdir.no/kunnskap/boligokonomiogarbeid.html"]
                     },
                     {
-                        "id": "bfk:133",
+                        "id": "http://data.bufdir.no/bfk/omrode/11",
                         "navn": "Nettverk og sosial integrering",
-                        "definisjon": "Nettverket utover kjernefamilien; relasjon til slekt og nettverk, grad av integrering i minoritets- og majoritetssamfunn, bolig og nærmiljø, tilgang på hjelp og støtte fra private, frivillige organisasjoner og offentlig nettverk."
+                        "definisjon": "Nettverket utover kjernefamilien; relasjon til slekt og nettverk, grad av integrering i minoritets- og majoritetssamfunn, bolig og nærmiljø, tilgang på hjelp og støtte fra private, frivillige organisasjoner og offentlig nettverk",
+                        "kunnskap": ["http://data.bufdir.no/kunnskap/nettverkogsosialintegritet.html"]
                     }                    
                 ]
             }
@@ -85,87 +96,438 @@
     },
     "faser": [
         {
-            "id": "bfk:fase:01",
-            "navn": "Bekymringsmeldingsfasen",
+            "id": "http://data.bufdir.no/bfk/fase/1",
+            "navn": "Bekymringsmelding",
+            "definisjon": "Når barneverntjenesten mottar en bekymringsmelding, skal den snarest, og senest innen en uke, avgjøre om meldingen skal gå videre til undersøkelse eller om den skal henlegges",
+            "frist": 7,
+            "kunnskap": [],
+            "kilder": [
+                {
+                    "forhold": "sitert fra",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/1"
+                },
+		{
+                    "forhold": "gjengitt",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/3"
+                }
+            ]
+        },
+        {
+            "id": "http://data.bufdir.no/bfk/fase/2",
+            "navn": "Undersøkelse",
+            "definisjon": "En melding som inneholder opplysninger som gir rimelig grunn til å anta at det er grunnlag for tiltak etter barnevernloven skal snarest undersøkes nærmere av barneverntjenesten, jf. barnevernloven § 4-3 første ledd. Undersøkelsen skal kartlegge barnets hjelpe- og omsorgsbehov, og gi barneverntjenesten grunnlag for å vurdere om barnet har behov for tiltak etter barnevernloven",
+            "frist": 90,
+            "kunnskap": [],
+            "kilder": [
+                {
+                    "forhold": "sitert fra",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/2"
+                },
+		{
+                    "forhold": "gjengitt",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/4"
+                }
+            ]
+        },
+        {
+            "id": "http://data.bufdir.no/bfk/fase/3",
+            "navn": "Tiltak",
             "definisjon": "",
-            "frist": 10,
-            "kunnskap": ["bfk:kunnskap:01"],
+            "frist": "",
+            "kunnskap": [],
+            "kilder": []
+        },
+        {
+            "id": "http://data.bufdir.no/bfk/fase/4",
+            "navn": "Evaluering",
+            "definisjon": "",
+            "frist": "",
+            "kunnskap": [],
             "kilder": []
         }
     ],
-    "prosesser": [
-        {
-            "id": "bfk:prosess:01",
-            "navn": "Bekymringsmelding",
-            "definisjon": "Prosess for bekymringsmelding....",
-            "fase": "bfk:fase:01",
-            "kunnskap": ["bfk:kunnskap:01"],
-            "oppgaver": [
-                {
-                    "id": "bfk:oppgave:01",
-                    "navn": "Motta melding",
-                    "definisjon": "Lorum ipsum...",
-                    "sjekkliste": [
-                        { 
-                            "navn": "Registrer avgiver",
-                            "beskrivelse": "anonym, navn, telefonnr, tidspunkt"
-                        },
-                        {
-                            "navn": "Lærer",
-                            "beskrivelse": "Kontaktlærer ..."
-                        }
-                    ],
-                    "kilder": [],
-                    "aktiviteter": [
-                        {
-                            "navn": "Registrer i System A",
-                            "definisjon": "Ctrl-R..."
-                        }
+   "prosesser": [{
+			"id": "http://data.bufdir.no/bfk/prosess/1",
+			"navn": "Bekymringsmelding",
+			"definisjon": "Det er kun én prosess som inngår i fase bekymringsmelding. Den starter med mottak av melding, deretter vurdering av melding, konkludering av melding og avsluttes med et vedtak.",
+			"fase": "http://data.bufdir.no/bfk/fase/1",
+			"kunnskap": ["http://data.bufdir.no/kunnskap/bekymringsmelding.html"]
+		},
+		{
+			"oppgaver": [{
+					"id": "http://data.bufdir.no/bfk/oppgave/1",
+					"navn": "Motta bekymringsmelding",
+					"definisjon": "",
+					"sporsmal": "http://data.bufdir.no/bfk/spørsmål/1",
+					"sjekkliste": "http://data.bufdir.no/bfk/sjekkliste/1",
+					"kilder": [],
+					"aktiviteter": []
+				},
+				{
+					"id": "http://data.bufdir.no/bfk/oppgave/2",
+					"navn": "Vurdere bekymringsmelding",
+					"definisjon": "Grunnlaget for vurdering av en bekymringsmelding er; bekymringsmeldingen og eventuelle tidligere registrert informasjon på barnet eller søsken.",
+					"kunnskapsmodell": "http://data.bufdir.no/bfk/kunnskapsmodell",
+					"sporsmal": ["http://data.bufdir.no/bfk/spørsmål/2", "http://data.bufdir.no/bfk/spørsmål/3"],
+					"sjekkliste": [],
+					"kilder": [],
+					"aktiviteter": []
+				},
 
-                    ]
-                }
-            ]
-        }
-    ],
-    "spørsmål": [
+				{
+					"id": "http://data.bufdir.no/bfk/oppgave/3",
+					"navn": "Konkludere bekymringsmelding",
+					"definisjon": "En bekymringsmelding kan enten konkluderes med henleggelse eller videre undersøkelse",
+					"sporsmal": [],
+					"sjekkliste": [],
+					"kodeliste": ["http://data.bufdir.no/bfk/kodeliste/1", "http://data.bufdir.no/bfk/kodeliste/2"],
+					"kilder": [],
+					"aktiviteter": [{
+						"navn": "Sende tilbakemelding til melder",
+						"definisjon": "Privat melder skal ha tilbakemelding om mottatt bekymringsmelding, offentlig melder skal ha tilbakemelding om konklusjon på bekymringsmelding"
+					}]
+
+				}
+			]
+		}, {
+			"id": "http://data.bufdir.no/bfk/prosess/2",
+			"navn": "Den gode starten på en undersøkelse",
+			"definisjon": "Dette er den første prosessen i undersøkelsesfasen",
+			"fase": "http://data.bufdir.no/bfk/fase/2",
+			"kunnskap": ["http://data.bufdir.no/kunnskap/dengodestartenpaundersokelse.html"]
+		}
+
+	],
+    "sporsmal": [
         {
-            "id": "bfk:spørsmål:01",
-            "type": "generelt",
-            "spørsmålstekst": "Har barnet utslåtte tenner",
-            "dimensjon": ["bfk:11", "bfk:12"],
-            "områder": ["bfk:110", "bfk:121"],
-            "kilder": [
-                {
-                    "forhold": "gjengitt",
-                    "kilde": "bfk:kilde:42"
-                }
-            ]
-        }
-    ],
-    "kunnskap": [
-        {
-            "id": "bfk:kunnskap:01",
-            "tittel": "Barnehage og skole",
-            "type": "introtekst",
-            "arktikkel": "<p>En vesentlig del av barns utvikling handler om læring, og barnehage og skole er to viktige arenaer for dette. Læring i denne sammenheng handler om alt fra de minste barnas læring av basale funksjoner som å gå, snakke osv., til lek og læring i barnehagen og mer formalisert læring i skolen.</p> <p>I følge barnekonvensjonen artikkel 28 og 29 har barn rett til utdanning. Utdanningen skal fremme barnets personlighet, og teoretiske og praktiske ferdigheter.</p><p>Deltakelse, trivsel og læring på arenaer i barnehage og skole er viktig for barns utvikling. Barnehagen kan ha en beskyttende virkning og en positiv virkning på barns sosiale kompetanse og kognitive evner. Relasjonen mellom de voksne i barnehagen og barnet, kan ha en positiv virkning på barnas atferd og skolemodenhet.</p><p>Skolen er essensiell for læring, men kan også ha en viktig sosial funksjon. Det betyr at skolen generelt representerer en viktig beskyttelsesfaktor. Gjennomføring av skolegang og gode skoleprestasjoner gir gode forutsetninger for voksenlivet. Det er flere faktorer som påvirker barns læring og skolegang, herunder læringsevner/vansker, læringsmiljø, støtte, forventninger, motivasjon og skolevegring</p>",
-            "emneord": ["bufdir:begrep:barnehage", "bufdir:begrep:skole" ]            
+            "id": "http://data.bufdir.no/bfk/spørsmål/1",
+            "type": "reflekterende",
+            "sporsmalstekst": "Er det behov for umiddelbar inngripen?"
         },
         {
-            "id":"bfk:kunnskap:10",
-            "type": "Hjelpetekst",
-            "artikkel": "<p>Barns rett til egnet helsehjelp er nedfelt i [Hjemmel1({Hjemmel1:PublikasjonNavn} {Hjemmel1})].<br />God helse er grunnleggende for barns utvikling og omfatter b&aring;de psykisk og fysisk helse. <br />Fysisk helse handler blant annet om vekst og utvikling, motorikk og fysisk aktivitet, sykdom, eventuelle funksjonsnedsettelser, s&oslash;vn og ern&aelig;ring. <br />Psykisk helse omfatter blant annet utvikling og regulering av f&oslash;lelser, tanker, atferd og sosiale evner, samt evne til selvstendighet, tilknytning og h&aring;ndtering av stress. <br />God fysisk og psykisk helse er av avgj&oslash;rende betydning for all l&aelig;ring og utvikling, og er forbundet med god livskvalitet. Tilsvarende er frav&aelig;r av god helse forbundet med negative virkninger som &oslash;kt risiko for sosial isolasjon, frafall i skolen og utenforskap i arbeidslivet. <br />Helse er et omfattende omr&aring;de og krever samarbeid med eksterne instanser som for eksempel fastlege, tannhelsetjeneste, spesialisthelsetjeneste, helsestasjon osv.</p>"
+            "id": "http://data.bufdir.no/bfk/spørsmål/2",
+            "type": "reflekterende",
+            "sporsmalstekst": "Hva bekymrer?",
+            "dimensjon": ["http://data.bufdir.no/bfk/dimensjon/1", "http://data.bufdir.no/bfk/dimensjon/2", "http://data.bufdir.no/bfk/dimensjon/1"],
+            "omrader": ["http://data.bufdir.no/bfk/omrode/1", "http://data.bufdir.no/bfk/omrode/2", "http://data.bufdir.no/bfk/omrode/3", "http://data.bufdir.no/bfk/omrode/4", "http://data.bufdir.no/bfk/omrode/5", "http://data.bufdir.no/bfk/omrode/6", "http://data.bufdir.no/bfk/omrode/7", "http://data.bufdir.no/bfk/omrode/8", "http://data.bufdir.no/bfk/omrode/9", "http://data.bufdir.no/bfk/omrode/10", "http://data.bufdir.no/bfk/omrode/11"]
+        },
+        {
+            "id": "http://data.bufdir.no/bfk/spørsmål/3",
+            "type": "reflekterende",
+            "sporsmalstekst": "Hvordan kommer dette til uttrykk?",
+            "dimensjon": ["http://data.bufdir.no/bfk/dimensjon/1", "http://data.bufdir.no/bfk/dimensjon/2", "http://data.bufdir.no/bfk/dimensjon/1"],
+            "omrader": ["http://data.bufdir.no/bfk/omrode/1", "http://data.bufdir.no/bfk/omrode/2", "http://data.bufdir.no/bfk/omrode/3", "http://data.bufdir.no/bfk/omrode/4", "http://data.bufdir.no/bfk/omrode/5", "http://data.bufdir.no/bfk/omrode/6", "http://data.bufdir.no/bfk/omrode/7", "http://data.bufdir.no/bfk/omrode/8", "http://data.bufdir.no/bfk/omrode/9", "http://data.bufdir.no/bfk/omrode/10", "http://data.bufdir.no/bfk/omrode/11"]
         }
-
     ],
+"sjekkliste": 
+	{
+	"id": "http://data.bufdir.no/bfk/sjekkliste/1",
+	"navn": "sjekk historikk på barnet",
+	"sjekklisteElement":
+		[{
+		"navn": "Tidligere meldinger",
+		"beskrivelse": "ingen, eller et tall"
+		},
+		{
+		"navn": "Tidligere tiltak",
+		"beskrivelse": "ingen, eller et tall"
+		},
+		{
+		"navn": "Tidligere vedtak",
+		"beskrivelse": "ingen, eller et tall"
+		},
+		{
+		"navn": "Registrert sak på søsken",
+		"beskrivelse": "ingen, eller et tall"
+		}
+		],
+ "kunnskap": [
+        {
+            "id": "http://data.bufdir.no/kunnskap/familieforhold.html",
+            "tittel": "Familieforhold",
+            "type": "hjelpetekst",
+             "kilder": [
+                {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/5"
+                }
+            ],
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
+        },
+        {
+            "id": "http://data.bufdir.no/kunnskap/nettverkogsosialintegritet.html",
+            "tittel": "Nettverk og sosial integritet",
+            "type": "hjelpetekst",
+             "kilder": [
+                {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/6"
+                }
+            ],
+            "emneord": ["http://data.bufdir.no/begrep/kunnskapsmodell"]            
+        },
+         {
+            "id": "http://data.bufdir.no/kunnskap/boligokonomiogarbeid.html",
+            "tittel": "Bolig, økonomi og arbeid",
+            "type": "hjelpetekst",
+             "kilder": [
+                {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/7"
+                }
+            ],
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
+        },
+	  {
+            "id": "http://data.bufdir.no/kunnskap/beskyttelse.html",
+            "tittel": "Beskyttelse",
+            "type": "hjelpetekst",
+             "kilder": [],
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
+        },
+	  {
+            "id": "http://data.bufdir.no/folelsesmessigtilgjengelighet.html",
+            "tittel": "Følelsesmessig tilgjengelighet",
+            "type": "hjelpetekst",
+             "kilder": [
+                {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/5"
+                }
+            ],
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
+        },
+	 {
+            "id": "http://data.bufdir.no/kunnskap/stimuleringogveiledning.html",
+            "tittel": "Stimulering og veiledning",
+            "type": "hjelpetekst",
+             "kilder": [
+                {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/6"
+                }
+            ],
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
+        },
+	 {
+            "id": "http://data.bufdir.no/kunnskap/grunnleggendeomsorg.html",
+            "tittel": "Grunnleggende omsorg",
+            "type": "hjelpetekst",
+             "kilder": [
+                {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/7"
+                },
+		      {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/8"
+                },
+		     {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/9"
+                }
+            ],
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
+        },
+	 {
+            "id": "http://data.bufdir.no/kunnskap/vennerogfritid.html",
+            "tittel": "Venner og fritid",
+            "type": "hjelpetekst",
+             "kilder": [
+		      {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/8"
+                }
+            ],
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
+        },
+	  {
+            "id": "http://data.bufdir.no/kunnskap/helse.html",
+            "tittel": "Helse",
+            "type": "hjelpetekst",
+             "kilder": [
+		      {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/10"
+                }
+            ],
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
+        },
+	 {
+            "id": "http://data.bufdir.no/kunnskap/folelseroguttrykk.html",
+            "tittel": "Følelser og utrykk",
+            "type": "hjelpetekst",
+             "kilder": [
+		      {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/5"
+                }
+            ],
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
+        },
+	 {
+            "id": "http://data.bufdir.no/kunnskap/barnehageogskole.html",
+            "tittel": "Barnehage og skole",
+            "type": "hjelpetekst",
+             "kilder": [
+		      {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/11"
+                },
+		      {
+                    "forhold": "bygget på",
+                    "kilde": "http://data.bufdir.no/bfk/kilde/12"
+                }
+            ],
+            "emneord": ["https://data.bufdir.no/begreper/1"]            
+        },
+          {
+            "id": "http://data.bufdir.no/kunnskap/bekymringsmelding.html",
+            "tittel": "Bekymringsmelding",
+            "type": "hjelpetekst",
+            "emneord": ["https://data.bufdir.no/begreper/3", "https://data.bufdir.no/begreper/11"]            
+        },
+         {
+            "id": "http://data.bufdir.no/kunnskap/dengodestartenpaundersokelse.html",
+            "tittel": "Den gode starten på en undersøkelse",
+            "type": "hjelpetekst",
+            "emneord": ["https://data.bufdir.no/begreper/12", "https://data.bufdir.no/begreper/11"]            
+        }
+    ],
+	
     "kilder": [
         {
-            "id": "bfk:kilde:42",
-            "tittel": "En faglig artikkel",
-            "forfatter": "Lars Lurium",
-            "utgiver": "Heggtun forlag",
-            "år": 1962,
+            "id": "http://data.bufdir.no/bfk/kilde/1",
+            "tittel": "Saksbehandlingsrundskrivet",
+	    "kapittel": "4 Meldinger til barneverntjenesten",
+            "forfatter": "",
+            "utgiver": "Bufdir",
+            "ar": "",
             "type": "veileder",
-            "opprettet": "2019-01-10"
+            "opprettet": "2019-01-10",
+            "url": "https://www.bufdir.no/Barnevern/Fagstotte/saksbehandlingsrundskrivet/#82"
+        },
+	      {
+            "id": "http://data.bufdir.no/bfk/kilde/2",
+            "tittel": "Saksbehandlingsrundskrivet",
+	    "kapittel": "5 Barneverntjenestens undersøkelse",
+            "forfatter": "",
+            "utgiver": "Bufdir",
+            "ar": "",
+            "type": "veileder",
+            "opprettet": "2019-01-10",
+            "url": "https://www.bufdir.no/Barnevern/Fagstotte/saksbehandlingsrundskrivet/#90"
+        },
+	   {
+            "id": "http://data.bufdir.no/bfk/kilde/3",
+            "tittel": "Lov om barneverntjenester (barnevernloven)",
+	    "kapittel": "§ 4-2 Meldinger til barneverntjenesten",	
+            "forfatter": "",
+            "utgiver": "",
+            "ar": "",
+            "type": "lovverk",
+            "opprettet": "1992-07-17",
+            "url": "https://lovdata.no/lov/1992-07-17-100/§4-2"
+        },
+	    {
+            "id": "http://data.bufdir.no/bfk/kilde/4",
+            "tittel": "Lov om barneverntjenester (barnevernloven)",
+	    "kapittel": "§ 4-3 Rett og plikt for barneverntjenesten til å foreta undersøkelser.",	
+            "forfatter": "",
+            "utgiver": "",
+            "ar": "",
+            "type": "lovverk",
+            "opprettet": "1992-07-17",
+            "url": "https://lovdata.no/lov/1992-07-17-100/§4-3"
+        },
+	    {
+            "id": "http://data.bufdir.no/bfk/kilde/6",
+            "tittel": "Lov om styrking av menneskerettighetenes stilling i norsk rett (menneskerettsloven)",
+	    "kapittel": "FNs konvensjon om barnets rettigheter av 20. november 1989, art. 5",	
+            "forfatter": "",
+            "utgiver": "",
+            "ar": "",
+            "type": "lovverk",
+            "opprettet": "",
+            "url": "https://lovdata.no/lov/1999-05-21-30/bkn/a5"
+        },
+	     {
+            "id": "http://data.bufdir.no/bfk/kilde/5",
+            "tittel": "Lov om styrking av menneskerettighetenes stilling i norsk rett (menneskerettsloven)",
+	    "kapittel": "FNs konvensjon om barnets rettigheter av 20. november 1989, art. 18",	
+            "forfatter": "",
+            "utgiver": "",
+            "ar": "",
+            "type": "lovverk",
+            "opprettet": "",
+            "url": "https://lovdata.no/lov/1999-05-21-30/bkn/a18"
+        },
+	    {
+            "id": "http://data.bufdir.no/bfk/kilde/7",
+            "tittel": "Lov om styrking av menneskerettighetenes stilling i norsk rett (menneskerettsloven)",
+	    "kapittel": "FNs konvensjon om barnets rettigheter av 20. november 1989, art. 27",	
+            "forfatter": "",
+            "utgiver": "",
+            "ar": "",
+            "type": "lovverk",
+            "opprettet": "",
+            "url": "https://lovdata.no/lov/1999-05-21-30/bkn/a27"
+        },
+	    {
+            "id": "http://data.bufdir.no/bfk/kilde/8",
+            "tittel": "Lov om styrking av menneskerettighetenes stilling i norsk rett (menneskerettsloven)",
+	    "kapittel": "FNs konvensjon om barnets rettigheter av 20. november 1989, art. 31",	
+            "forfatter": "",
+            "utgiver": "",
+            "ar": "",
+            "type": "lovverk",
+            "opprettet": "",
+            "url": "https://lovdata.no/lov/1999-05-21-30/bkn/a31"
+        },
+	    {
+            "id": "http://data.bufdir.no/bfk/kilde/9",
+            "tittel": "Barn i risiko : skadelige omsorgssituasjoner",
+	    "kapittel": "Kapittel 7",	
+            "forfatter": "Øyvind Kvello",
+            "utgiver": "Gyldendal",
+            "ar": "2015",
+            "type": "metode",
+            "opprettet": "",
+            "url": ""
+        },
+	    {
+            "id": "http://data.bufdir.no/bfk/kilde/10",
+            "tittel": "Lov om styrking av menneskerettighetenes stilling i norsk rett (menneskerettsloven)",
+	    "kapittel": "FNs konvensjon om barnets rettigheter av 20. november 1989, art. 24",	
+            "forfatter": "",
+            "utgiver": "",
+            "ar": "",
+            "type": "lovverk",
+            "opprettet": "",
+            "url": "https://lovdata.no/lov/1999-05-21-30/bkn/a24"
+        },
+	     {
+            "id": "http://data.bufdir.no/bfk/kilde/11",
+            "tittel": "Lov om styrking av menneskerettighetenes stilling i norsk rett (menneskerettsloven)",
+	    "kapittel": "FNs konvensjon om barnets rettigheter av 20. november 1989, art. 28",	
+            "forfatter": "",
+            "utgiver": "",
+            "ar": "",
+            "type": "lovverk",
+            "opprettet": "",
+            "url": "https://lovdata.no/lov/1999-05-21-30/bkn/a28"
+        },
+	     {
+            "id": "http://data.bufdir.no/bfk/kilde/12",
+            "tittel": "Lov om styrking av menneskerettighetenes stilling i norsk rett (menneskerettsloven)",
+	    "kapittel": "FNs konvensjon om barnets rettigheter av 20. november 1989, art. 29",	
+            "forfatter": "",
+            "utgiver": "",
+            "ar": "",
+            "type": "lovverk",
+            "opprettet": "",
+            "url": "https://lovdata.no/lov/1999-05-21-30/bkn/a29"
         }
     ]
+}
 }
